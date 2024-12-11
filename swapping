@@ -1,0 +1,5 @@
+num=6
+limit=60
+while num<=limit:
+  print(num)
+  num+=6
