@@ -1,0 +1,5 @@
+num=int(input("Enter the number:"))
+if num%3==0 and num%5==0:
+  print("number is mulitiple of both 3&5")
+else:
+  print("number is not multiple of both 3&5")  
