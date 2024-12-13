@@ -1,0 +1,3 @@
+import pprint 
+data = {"name":"Alice","subjects":["Math","Science"],"grades":{"Math":"A","Sience":"B"}}
+pprint.pprint(data)
