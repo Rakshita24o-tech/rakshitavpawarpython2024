@@ -1,0 +1,2 @@
+#pop();
+numbers.pop(2)
