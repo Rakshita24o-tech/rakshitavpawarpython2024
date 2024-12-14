@@ -1,0 +1,5 @@
+# Open a file for writing (creates the file if it doesn't exist)
+with open('/content/Rakshita v pawar.txt', 'w') as file:
+    # Write some text to the file
+    file.write("Hello, this is a test file!\n")
+    file.write("This file was created using Python.\n")
