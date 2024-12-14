@@ -1,0 +1,4 @@
+# Open the file in append mode
+with open('/content/Rakshita v pawar.txt', 'a') as file:
+    # Append a new line to the file
+    file.write("This is a new line appended to the file.\n")
