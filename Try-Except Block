@@ -1,0 +1,8 @@
+from binascii import Error
+try:
+  num = int(input("Enter a number:"))
+  print(10/num)
+except zerodivisionerror:
+  print("You cannot divide by zero.")
+except ValueError:
+  print("Invalid input! Please enter a number.")
