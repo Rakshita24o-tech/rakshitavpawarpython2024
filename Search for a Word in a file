@@ -1,0 +1,11 @@
+word_to_search = 'apple'
+found = False
+
+with open('/content/Rakshita v pawar.txt', 'r') as file:
+    for line in file:
+        if word_to_search in line:
+            print(f"Found '{word_to_search}' in line: {line.strip()}")
+            found = True
+
+if not found:
+    print(f"'{word_to_search}' not found in the file.")
