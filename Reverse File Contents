@@ -1,0 +1,6 @@
+with open('/content/Rakshita v pawar.txt', 'r') as file:
+    lines = file.readlines()  # Read all lines of the file
+
+# Reverse the lines and write them back to the file
+with open('/content/Rakshita v pawar.txt', 'w') as file:
+    file.writelines(reversed(lines))
