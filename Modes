@@ -1,0 +1,5 @@
+#read
+file = open('/content/Rakshita v pawar.txt','r')
+content = file.read()
+print(content)
+file.close()
