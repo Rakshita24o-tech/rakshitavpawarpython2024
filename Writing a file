@@ -1,0 +1,5 @@
+#write()
+file = open('/content/Rakshita v pawar.txt','w')
+file.write("Hello,World!\n")
+print(content)
+fileclose().
