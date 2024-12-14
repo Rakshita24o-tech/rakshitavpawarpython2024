@@ -1,0 +1,6 @@
+try:
+  file = open("/content/Rakshita v pawar.txt","r")
+except FileNotFoundError:
+  print("File not found.") 
+finally:
+  print("Execution complete.")   
