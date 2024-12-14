@@ -1,0 +1,7 @@
+file = open('/content/Rakshita v pawar.txt', 'r')
+
+# Read the contents of the file
+content = file.read()
+
+# Don't forget to close the file when done
+file.close()
