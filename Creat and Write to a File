@@ -1,0 +1,9 @@
+import os
+
+filename = 'newfile.txt'
+
+if not os.path.exists(filename):
+    with open(filename, 'w') as file:
+        file.write("File created and content written!\n")
+else:
+    print("File already exists.")
