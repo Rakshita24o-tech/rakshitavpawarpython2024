@@ -1,0 +1,3 @@
+#binary mode('b')
+with open("/content/Rakshita v pawar.txt","rb") as file:
+  data = file.read()
