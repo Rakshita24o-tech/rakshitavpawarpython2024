@@ -1,0 +1,5 @@
+#append()
+file = open("example.txt","a")
+file.write("This is an append line.\n")
+print(content)
+file.close()
