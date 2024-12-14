@@ -1,0 +1,11 @@
+# Open the file for reading
+with open('/content/Rakshita v pawar.txt', 'r') as file:
+    # Initialize line counter
+    line_count = 0
+    
+    # Loop through each line in the file
+    for line in file:
+        line_count += 1
+
+# Print the total number of lines
+print(f"The total number of lines in the file is: {line_count}")
