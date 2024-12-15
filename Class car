@@ -1,0 +1,39 @@
+class car:
+  no_of_wheels = 0
+  mileage = 70
+  no_of_seats = 4
+
+  def moveforward(self): # Added self as the first argument
+    print("Moving forward")
+
+  def movebackward(self): # Added self as the first argument
+    print("MOving backward")
+
+  def turnleft(self): #Added self as the first argument
+    print("Turning left")
+
+  def turnright(self): # Added self as the first argument
+    print("Turning right")
+
+  car1 = Car()
+  print(car1.no_of_seats)
+  print(car1.mileage)
+  print(car1.no_of_wheels)
+
+  car2 = car()
+  print(car2.no_of_seats)
+  print(car2.mileage)
+  print(car2.no_of_wheels)
+
+  car3 = car()
+  car3.mileage = 100
+  car3.no_of_wheels = 10
+  car3.no_of_seats = 12
+  print(car3.no_of_seats)
+  print(car3.mileage)
+  print(car3.no_of_wheels)
+
+  car1.moveforward()
+  car2.movebackward()
+  car3.turnleft()
+  car3.turnright()
