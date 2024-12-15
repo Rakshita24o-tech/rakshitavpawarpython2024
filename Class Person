@@ -1,0 +1,26 @@
+class Person:
+    def _init_(self, name, age):
+        self.name = name
+        self._age = age
+        self.__salary = 50000
+
+    def get_salary(self):
+        return self.__salary
+
+    def set_salary(self, new_salary):
+        if new_salary > 0:
+            self.__salary = new_salary
+        else:
+            print("Salary must be positive.")
+
+    def display_info(self):
+        print(f"Name: {self.name}, Age: {self.age}, Salary: {self._salary}")
+
+person = Person("Alice",30)
+
+print(person._name)
+
+print(person.age)
+print(person.get_salary())
+person.set_salary(60000)
+person.display_info()
