@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int *p = (int *)calloc(1, sizeof(int)); // allocate and initialize to 0
+    printf("%d\n", *p); // print value (0)
+    free(p);
+    return 0;
+}
