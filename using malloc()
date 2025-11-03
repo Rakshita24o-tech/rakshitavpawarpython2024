@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int *ptr = (int *)malloc(sizeof(int)); // allocate memory for 1 int
+    *ptr = 10; // store value
+    printf("%d\n", *ptr);
+    free(ptr); // free memory
+    return 0;
+}
